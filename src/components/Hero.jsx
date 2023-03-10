@@ -4,10 +4,10 @@ import homeImage from "../assets/avatarImage.jpeg";
 export default function Hero() {
   return (
     <Section id="hero">
-      <div className="background">
+      <div className="background"  data-aos ="fade">
         <img src={homeImage} alt="" />
       </div>
-      <div className="content">
+      <div className="content" data-aos="fade-left">
         <div className="title">
           <h1>TRAVEL TO EXPLORE</h1>
           <p>
@@ -43,7 +43,7 @@ const Section = styled.section`
   height: 100%;
 
   .background {
-    height: 100%;
+    height: 50%;
     img {
       width: 100%;
       filter: brightness(60%);

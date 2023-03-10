@@ -33,10 +33,10 @@ export default function Services() {
     },
   ];
   return (
-    <Section id="services">
+    <Section id="services" >
       {data.map((service, index) => {
         return (
-          <div className="service">
+          <div className="service" data-aos="fade-left">
             <div className="icon">
               <img src={service.icon} alt="" />
             </div>
